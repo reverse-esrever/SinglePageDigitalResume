@@ -4,6 +4,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title>Резюме</title>
+    <style>
+        body {
+            font-family: 'DejaVu Sans', sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+        h1 {
+            font-size: 2em;
+            margin: 0;
+        }
+        p {
+            font-size: 1em;
+        }
+    </style>
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 <body class="bg-gray-100">
