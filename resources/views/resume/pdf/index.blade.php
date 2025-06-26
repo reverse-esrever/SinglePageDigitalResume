@@ -1,17 +1,12 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title>Резюме</title>
+    <title>Резюме PDF</title>
+
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 <body class="bg-gray-100">
-    <div class="flex justify-center mt-6">
-        <a href="{{route("resume.download")}}" class="bg-blue-500 text-white font-semibold py-2 px-4 rounded-lg shadow hover:bg-blue-600 transition duration-300">
-            Скачать резюме в PDF
-        </a>
-    </div>
     <div class="max-w-3xl mx-auto p-8 bg-white rounded-lg shadow-lg mt-10">
         <h1 class="text-3xl font-bold text-gray-800">{{ $resume['basics']['name'] }}</h1>
         <h2 class="text-xl text-gray-600">{{ $resume['basics']['label']}}</h2>
