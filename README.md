@@ -5,7 +5,7 @@
 Render a simple resume page with contact information
 
 ## Deployment
-1) 
+1) 1) rrere
 2) composer install and composer run dev
 3)create env
 4)generate app key
